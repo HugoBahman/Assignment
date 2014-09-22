@@ -1,0 +1,12 @@
+#Hugo
+#Math Unit Excercise 1
+
+import math
+
+print("This is a program that takes a given radius for a circle and")
+print("returns the its area and circumference.")
+circle_radius = float(input("Please enter a radius for a circle in cm: "))
+circle_area = circle_radius**2*math.pi
+circle_circumference = 2*math.pi*circle_radius
+print("The circumference of the circle is {0}cm and the area is {1}cmsquared.".format(circle_circumference, circle_area))
+
