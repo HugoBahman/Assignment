@@ -1,0 +1,13 @@
+#Hugo
+#Math Unit Excercise 2
+
+import math
+
+print("This is a program that gives you the required volume of water to fill a pool with the same depth at all points.")
+pool_depth = float(input("Please enter the depth of your pool in m: "))
+pool_diameter = float(input("Now please enter the diamter of your pool in m: "))
+pool_top_area = math.pi*(pool_diameter/2)**2
+pool_volume = pool_top_area*pool_depth
+
+print("You will need {0}m**3 of water to fill your pool".format(pool_volume))
+
